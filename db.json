@@ -1,35 +1,14 @@
-
-results:[{
-    Id: 5904345,
-    SportId: 4,
-    SportName: "Football",
-    RegionId: 224,
-    RegionName: "Vietnam",
-    LeagueId: 8527,
-    LeagueName: "V-League",
-    HomeTeam: "Quang Nam",
-    AwayTeam: "XSKT Can Tho",
-    BetRadarId: 10800996,
-    IsPreMatch: true,
-    Date: "2017-03-17T10:00:00Z",
-    updated_at: "1489740873",
-    IsOutright: false,
-    Markets: [ ]
-  },
-  {
-    Id: 5924356,
-    SportId: 5,
-    SportName: "Tennis",
-    RegionId: 10009,
-    RegionName: "ITF Men",
-    LeagueId: 33595,
-    LeagueName: "ITF Men - Poitiers (FRA) - Hard",
-    HomeTeam: "Vladimir Ivanov (EST)",
-    AwayTeam: "Remi Boutillier (FRA)",
-    BetRadarId: 0,
-    IsPreMatch: true,
-    Date: "2017-03-17T10:00:00Z",
-    updated_at: "1489744501",
-    IsOutright: false,
-    Markets: [ ]
-  }]
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
